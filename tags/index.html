@@ -299,10 +299,43 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/Mi/" title="Mi: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Mi" style="background-color: #F9EBEA;">Mi
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Mi","weight":1,"link":"/tags/Mi/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
@@ -345,9 +378,9 @@
     
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
+                   server="tencent"
                    type="playlist"
-                   id="7535000099"
+                   id="playlist 7535000099"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
